@@ -1,0 +1,24 @@
+.pagination {
+  display: flex;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.page-item {
+  list-style-type: none;
+}
